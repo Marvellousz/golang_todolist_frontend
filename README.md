@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
+# Let's Go! Frontend
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Welcome to the **Let's Go!** Frontend repository. This project serves as the frontend for the fullstack application, built using **React** with **TypeScript**. It offers a modern UI with **ChakraUI**, real-time data fetching with **TanStack Query**, and dynamic theme switching.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## ⚙️ Tech Stack
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Superset of JavaScript for static typing.
+- **ChakraUI**: Modern UI component library.
+- **TanStack Query (React Query)**: For data fetching and caching.
+- **Axios**: Promise-based HTTP client.
+
+## ✅ Features
+
+- **CRUD Functionality**: Manage todos with Create, Read, Update, and Delete operations.
+- **Light and Dark Mode**: Dynamic UI theme switching powered by ChakraUI.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop screens.
+- **Real-Time Data**: Efficient data fetching, caching, and synchronization with TanStack Query.
+- **Stylish UI**: Modern and accessible components from ChakraUI.
+
+## 📦 Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/en/download/) (version 14 or later)
+- [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install)
+
+## 📖 Usage
+
+### CRUD Operations
+
+- **Create Todo**: Use the form to add a new todo.
+- **Read Todos**: View the list of all todos.
+- **Update Todo**: Edit an existing todo by clicking the edit button.
+- **Delete Todo**: Remove a todo by clicking the delete button.
+
+### Theme Switching
+
+Toggle between light and dark modes using the theme switcher in the UI.
+
+### Responsive Design
+
+The application is fully responsive and adapts to various screen sizes, ensuring a seamless experience on mobile, tablet, and desktop devices.
+
 ```
