@@ -1,4 +1,3 @@
-```
 # Let's Go! Frontend
 
 Welcome to the **Let's Go!** Frontend repository. This project serves as the frontend for the fullstack application, built using **React** with **TypeScript**. It offers a modern UI with **ChakraUI**, real-time data fetching with **TanStack Query**, and dynamic theme switching.
@@ -43,4 +42,3 @@ Toggle between light and dark modes using the theme switcher in the UI.
 
 The application is fully responsive and adapts to various screen sizes, ensuring a seamless experience on mobile, tablet, and desktop devices.
 
-```
