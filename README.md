@@ -2,7 +2,7 @@
 
 Welcome to the **Let's Go!** Frontend repository. This project serves as the frontend for the fullstack application, built using **React** with **TypeScript**. It offers a modern UI with **ChakraUI**, real-time data fetching with **TanStack Query**, and dynamic theme switching.
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **React**: JavaScript library for building user interfaces.
 - **TypeScript**: Superset of JavaScript for static typing.
@@ -10,7 +10,7 @@ Welcome to the **Let's Go!** Frontend repository. This project serves as the fro
 - **TanStack Query (React Query)**: For data fetching and caching.
 - **Axios**: Promise-based HTTP client.
 
-## ✅ Features
+## Features
 
 - **CRUD Functionality**: Manage todos with Create, Read, Update, and Delete operations.
 - **Light and Dark Mode**: Dynamic UI theme switching powered by ChakraUI.
@@ -18,14 +18,14 @@ Welcome to the **Let's Go!** Frontend repository. This project serves as the fro
 - **Real-Time Data**: Efficient data fetching, caching, and synchronization with TanStack Query.
 - **Stylish UI**: Modern and accessible components from ChakraUI.
 
-## 📦 Prerequisites
+## Prerequisites
 
 Ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/en/download/) (version 14 or later)
 - [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install)
 
-## 📖 Usage
+## Usage
 
 ### CRUD Operations
 
