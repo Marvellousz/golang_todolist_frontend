@@ -1,4 +1,4 @@
-# Let's Go! Frontend
+# let's go! frontend
 
 Welcome to the **Let's Go!** Frontend repository. This project serves as the frontend for the fullstack application, built using **React** with **TypeScript**. It offers a modern UI with **ChakraUI**, real-time data fetching with **TanStack Query**, and dynamic theme switching.
 
